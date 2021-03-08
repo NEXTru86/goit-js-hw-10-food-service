@@ -1,0 +1,22 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
+  "description": "Домашняя работа № 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEXTru86/goit-js-hw-10-food-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NEXTru86/goit-js-hw-10-food-service/issues"
+  },
+  "homepage": "https://github.com/NEXTru86/goit-js-hw-10-food-service#readme",
+  "dependencies": {
+    "parcel": "^2.0.0-nightly.619"
+  }
+}
