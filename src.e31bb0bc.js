@@ -194,7 +194,6 @@ module.hot.accept(reloadCSS);
 
 require("./styles.css");
 
-// import './sass/main.scss';
 var refs = {
   themeSwitch: document.querySelector('#theme-switch-toggle'),
   themeBody: document.querySelector('body')
@@ -263,7 +262,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51003" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54099" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
