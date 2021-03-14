@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./styles.css");var e={themeSwitch:document.querySelector("#theme-switch-toggle"),themeBody:document.querySelector("body")};e.themeSwitch.addEventListener("change",h);var t={LIGHT:"light-theme",DARK:"dark-theme"},c={};function h(h){h.target.checked?(c.theme=t.DARK,e.themeBody.classList.replace(t.LIGHT,t.DARK)||e.themeBody.classList.add(c.theme)):(c.theme=t.LIGHT,e.themeBody.classList.replace(t.DARK,t.LIGHT)||e.themeBody.classList.add(c.theme)),localStorage.setItem("activeThem",JSON.stringify(c)),localStorage.setItem("checked",h.target.checked)}function a(){var t=localStorage.getItem("activeThem"),h=localStorage.getItem("checked");t&&(c.theme=JSON.parse(t).theme,e.themeBody.classList.add(c.theme),e.themeSwitch.checked=JSON.parse(h))}a();
 },{"./styles.css":"Tnu0"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.3b8a6800.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.4381e6b0.js.map
